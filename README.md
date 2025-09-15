@@ -25,6 +25,8 @@ A simple batch script that makes using [DepotDownloader](https://github.com/Stea
 
 Instead of manually downloading, extracting, and typing long commands, this batch file automates the boring setup and lets you just enter the numbers you need.
 
+---
+
 ## Usage
 
 1. Download this repo.
@@ -32,7 +34,27 @@ Instead of manually downloading, extracting, and typing long commands, this batc
 3. Follow the prompts (enter App ID, Depot ID, Manifest ID, and your Steam username).
 4. The files will be downloaded into the folder specified by DepotDownloader.
 
+---
+
+## Example
+
+Let’s say you want to download an older version of **Counter-Strike: Global Offensive**.
+
+* **App ID:** `730` (CS\:GO)
+* **Depot ID:** `731` (main game content)
+* **Manifest ID:** `1234567890123456789` (replace with the actual manifest ID of the version you want — you can find this on sites that track SteamDB manifests)
+* **Steam Username:** `yourusername`
+
+When you run the script, enter these values at the prompts.
+DepotDownloader will then download that exact version of CS\:GO into your system.
+
+---
+
 ## Credits
 
 * [DepotDownloader](https://github.com/SteamRE/DepotDownloader) is created and maintained by **SteamRE**.
 * This batch script simply automates setup and usage.
+
+---
+
+⚠️ **Note:** You must own the game on Steam and know the correct manifest ID. This script does not bypass Steam’s ownership checks.
